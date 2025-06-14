@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #ff6f61, #fddb3a);
+  background-color: #ffffff;
   color: #1c1c1c;
 }
 
 header {
-  background-color: #1c1c1c;
+  background-color: #ff6f61;
   color: #fff;
   padding: 40px 20px;
   text-align: center;
@@ -21,7 +21,7 @@ header {
 .projetos-section {
   padding: 40px 20px;
   text-align: center;
-  background-color: #fff3f0;
+  background-color: #fef4ef;
 }
 
 .cards {
@@ -33,29 +33,40 @@ header {
 }
 
 .card {
-  background-color: #fff;
+  background-color: #ffffff;
   border: 3px solid #ff6f61;
   border-radius: 15px;
   padding: 20px;
   width: 260px;
   text-decoration: none;
   color: #1c1c1c;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.08);
 }
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-  background-color: #fddb3a;
+  background-color: #fff8f6;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 footer {
   text-align: center;
   background-color: #1c1c1c;
   color: #fff;
-  padding: 20px;
-  font-size: 14px;
+  padding: 30px 20px;
+  font-size: 16px;
+}
+
+footer a {
+  color: #fddb3a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #ff6f61;
+  text-decoration: underline;
 }
 
 @keyframes fadeIn {
